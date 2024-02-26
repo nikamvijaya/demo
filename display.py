@@ -19,6 +19,10 @@ def main():
     with col2:
         if st.button("coupled oscilation"):
             st.image('vivek2.gif', caption='coupled oscilaton')
+    with col3:
+        if st.button("vivek"):
+            st.image('IMG-20240222-WA0013.jpg', caption='vivu')
+        
     selected_topic = st.selectbox("Choose a topic", ["displacement", "velocity", "acceleration", "energy"])
     if selected_topic == "displacement":
         displacement.main()
