@@ -1,3 +1,5 @@
+import streamlit as st
+
 import displacement
 import velocity
 import acceleration
@@ -29,4 +31,4 @@ def main():
 
 main()
 if __name__ == "_main_":
-    main()
+    main()    
