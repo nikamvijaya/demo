@@ -12,7 +12,7 @@ def main():
     st.write( '''It doesn't matter how beautiful your theory is it doesn't matter how smart you are If it doesn't agree with experiment, it's wrong.''')
 
     st.header("HARMONIC OSCILLATOR")
-    col1, col2 = st.columns(2)
+    col1, col2 , col3 = st.columns(3)
     with col1:
         if st.button("spring oscilaton"):
             st.image('vivek.gif', caption='spring oscilaton')
