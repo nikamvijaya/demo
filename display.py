@@ -19,7 +19,7 @@ def main():
     with col2:
         if st.button("oscilation"):
             st.image('vivek2.gif', caption='coupled oscilaton')
-   with col3:
+    with col3:
         if st.button("spring oscilaton"):
             st.image('Screenshot_20240227_111306_Gallery', caption='spring oscilaton')
         
