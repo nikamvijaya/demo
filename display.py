@@ -12,13 +12,16 @@ def main():
     st.write( '''It doesn't matter how beautiful your theory is it doesn't matter how smart you are If it doesn't agree with experiment, it's wrong.''')
 
     st.header("HARMONIC OSCILLATOR")
-    col1, col2  = st.columns(2)
+    col1, col2 , col3 = st.columns(3)
     with col1:
         if st.button("spring oscilaton"):
             st.image('vivek.gif', caption='spring oscilaton')
     with col2:
-        if st.button("coupled oscilation"):
+        if st.button("oscilation"):
             st.image('vivek2.gif', caption='coupled oscilaton')
+   with col3:
+        if st.button("spring oscilaton"):
+            st.image('Screenshot_20240227_111306_Gallery', caption='spring oscilaton')
         
     selected_topic = st.selectbox("Choose a topic", ["displacement", "velocity", "acceleration", "energy"])
     if selected_topic == "displacement":
